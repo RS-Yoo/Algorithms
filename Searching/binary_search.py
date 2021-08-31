@@ -8,6 +8,6 @@ def binary_search(array, target, start, end):
             end = mid - 1
         else:
             start = mid + 1
-        return None
+    return None
 
     # if result is None, target does not exist in the array
